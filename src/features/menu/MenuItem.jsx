@@ -39,7 +39,11 @@ const MenuItem = ({ pizza }) => {
               Sold out
             </p>
           )}
-          {!soldOut && <Button type="small">Add to cart</Button>}
+          {!soldOut && (
+            <Button type="small" clickHandler={handleAddToCart}>
+              Add to cart
+            </Button>
+          )}
         </div>
       </div>
     </li>
