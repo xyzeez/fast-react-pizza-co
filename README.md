@@ -6,13 +6,19 @@ This is a React project developed using [Create React App](https://github.com/fa
 
 In this project, I build a pizza ordering web app covering topics such as:
 
-- What is React
-- How to create a project in React
-- What are components and how they work
-- Component Styling
-- JSX
-- Props
-- Conditional Rendering
+- Redux
+- Creating a Reducer and Redux Store
+- Working with Action Creators
+- State Slices
+- Connecting Redux App with React
+- Dispatching Actions
+- Redux Middleware and Thunks
+- Making an API Call with Redux Thunks
+- Redux DevTools
+- Redux Toolkit (RTK) and Creating Store with RTK
+- Creating Slices with RTK
+- Redux vs Context API
+- Fetching Data With useFetcher
 
 ### Screenshot
 
