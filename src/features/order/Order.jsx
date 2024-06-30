@@ -9,6 +9,7 @@ import {
 } from '../../utils/helpers';
 import OrderItem from './OrderItem';
 import { useEffect } from 'react';
+import UpdateOrder from './UpdateOrder';
 
 const Order = () => {
   const order = useLoaderData();
@@ -87,6 +88,7 @@ const Order = () => {
           To pay on delivery: {formatCurrency(orderPrice + priorityPrice)}
         </p>
       </div>
+      {!priority && <UpdateOrder />}
     </div>
   );
 };
